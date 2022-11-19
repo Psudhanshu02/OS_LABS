@@ -1,0 +1,4 @@
+CreateFile():- touch filename
+ReadFile():- cat filename, nl filename
+WriteFile():- cat >> filename
+CloseHandle():- 
